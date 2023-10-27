@@ -1,0 +1,17 @@
+{
+  "name": "apple-typedoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "typedoc --out docs/ --exclude **/*.spec.ts src/"
+  },
+  "keywords": [],
+  "author": "cybaj",
+  "license": "ISC",
+  "devDependencies": {
+    "typedoc": "^0.25.2",
+    "typescript": "^5.2.2"
+  }
+}
